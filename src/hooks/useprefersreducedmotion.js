@@ -1,1 +1,2 @@
-﻿export { reducedMotionPreferred as prefersReducedMotion } from '../lib/safeEnv'
+﻿
+export { reducedMotionPreferred as prefersReducedMotion } from '../lib/safeEnv'

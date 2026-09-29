@@ -1,6 +1,6 @@
 import { useParams, Navigate, Link } from 'react-router-dom'
 import { openWhenMessages } from '../content/openWhen'
-import { EnvelopeRitual } from '../components/Envelope'
+import { EnvelopeRitual } from '../components/envelope'
 import { usePageTitle } from '../hooks/usePageMeta'
 
 export default function EnvelopeLetter() {

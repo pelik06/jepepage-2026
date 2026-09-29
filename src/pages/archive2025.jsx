@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { archive2025 } from '../content/archive'
-import { Polaroid, Reveal } from '../components/Media'
+import { Polaroid, Reveal } from '../components/media'
 import { usePageTitle } from '../hooks/usePageMeta'
 
 export default function Archive2025() {

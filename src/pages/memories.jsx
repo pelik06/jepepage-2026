@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { memoriesIntro, memories } from '../content/memories'
-import { Polaroid, Reveal, Lightbox } from '../components/Media'
+import { Polaroid, Reveal, Lightbox } from '../components/media'
 import { usePageTitle } from '../hooks/usePageMeta'
 
 export default function Memories() {

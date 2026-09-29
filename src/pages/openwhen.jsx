@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { HeartFill } from '../components/icons'
 import { openWhenIntro, openWhenMessages } from '../content/openWhen'
 import { usePageTitle } from '../hooks/usePageMeta'
-import { Reveal } from '../components/Media'
+import { Reveal } from '../components/media'
 
 const icons = {
   Heart: HeartFill,
