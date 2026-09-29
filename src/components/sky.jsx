@@ -1,4 +1,4 @@
-import { prefersReducedMotion } from '../hooks/usePrefersReducedMotion'
+import { prefersReducedMotion } from '../hooks/useprefersreducedmotion'
 
 /* Crescent moon with a soft glow â€” pure CSS. */
 export function Moon({ style, extraClass = '' }) {

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { archive2025 } from '../content/archive'
 import { Polaroid, Reveal } from '../components/media'
-import { usePageTitle } from '../hooks/usePageMeta'
+import { usePageTitle } from '../hooks/usepagemeta'
 
 export default function Archive2025() {
   usePageTitle('2025 · Archive')

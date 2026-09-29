@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { usePageTitle } from '../hooks/usePageMeta'
+import { usePageTitle } from '../hooks/usepagemeta'
 
 export default function NotFound() {
   usePageTitle('Lost among the stars')

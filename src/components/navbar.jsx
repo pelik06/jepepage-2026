@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { ListIcon, CloseIcon } from './icons'
 import { nav, site } from '../content/site'
-import { useAmbientMusic } from '../hooks/useAmbientMusic'
+import { useAmbientMusic } from '../hooks/useambientmusic'
 
 function StarMark() {
   return (

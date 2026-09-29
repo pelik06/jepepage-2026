@@ -1,5 +1,5 @@
 ﻿import { useEffect, useRef } from 'react'
-import { prefersReducedMotion } from '../hooks/usePrefersReducedMotion'
+import { prefersReducedMotion } from '../hooks/useprefersreducedmotion'
 
 const COLORS = [
   [247, 168, 184], // rose

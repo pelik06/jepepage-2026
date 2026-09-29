@@ -1,5 +1,5 @@
 import { mainLetter } from '../content/letter'
-import { usePageTitle } from '../hooks/usePageMeta'
+import { usePageTitle } from '../hooks/usepagemeta'
 
 export default function Letter() {
   usePageTitle('A Letter')

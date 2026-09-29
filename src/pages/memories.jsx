@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { memoriesIntro, memories } from '../content/memories'
 import { Polaroid, Reveal, Lightbox } from '../components/media'
-import { usePageTitle } from '../hooks/usePageMeta'
+import { usePageTitle } from '../hooks/usepagemeta'
 
 export default function Memories() {
   usePageTitle('Memories')

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { HeartFill } from '../components/icons'
-import { openWhenIntro, openWhenMessages } from '../content/openWhen'
-import { usePageTitle } from '../hooks/usePageMeta'
+import { openWhenIntro, openWhenMessages } from '../content/openwhen'
+import { usePageTitle } from '../hooks/usepagemeta'
 import { Reveal } from '../components/media'
 
 const icons = {

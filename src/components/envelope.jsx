@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { envelopeIconMap, HeartFill } from './icons'
-import { music } from '../lib/musicEngine'
+import { music } from '../lib/musicengine'
 
 /**
  * LetterPaper — the readable letter card, used by envelope letters and the main letter.

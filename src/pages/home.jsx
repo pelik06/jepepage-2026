@@ -6,8 +6,8 @@ import { heroCopy } from '../content/home'
 import { Moon, Clouds, Landscape } from '../components/sky'
 import { Polaroid, Reveal, Lightbox } from '../components/media'
 import heroImg from '../assets/img/hero-couple-me.jpeg'
-import { usePageTitle } from '../hooks/usePageMeta'
-import { prefersReducedMotion } from '../hooks/usePrefersReducedMotion'
+import { usePageTitle } from '../hooks/usepagemeta'
+import { prefersReducedMotion } from '../hooks/useprefersreducedmotion'
 
 /**
  * Landing page with full-width assets & layered parallax:

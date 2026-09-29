@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { useInViewOnce } from '../hooks/useInViewOnce'
+import { useInViewOnce } from '../hooks/useinviewonce'
 import { CloseIcon as X } from './icons'
 
 /**

@@ -7,7 +7,7 @@ import finaleImg from '../assets/img/finale.jpg'
 import Fireworks from '../components/fireworks'
 import { setSkyIntensified } from '../components/starfield'
 import { music } from '../lib/musicEngine'
-import { prefersReducedMotion } from '../hooks/usePrefersReducedMotion'
+import { prefersReducedMotion } from '../hooks/useprefersreducedmotion'
 import { usePageTitle } from '../hooks/usePageMeta'
 
 export default function Surprise() {

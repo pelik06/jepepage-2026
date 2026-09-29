@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { music } from '../lib/musicEngine'
-import { storageGet, storageSet, reducedMotionPreferred } from '../lib/safeEnv'
+import { music } from '../lib/musicengine'
+import { storageGet, storageSet, reducedMotionPreferred } from '../lib/safeenv'
 
 const STORAGE_KEY = 'jepepage:music'
 
