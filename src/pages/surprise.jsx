@@ -6,9 +6,9 @@ import { site } from '../content/site'
 import finaleImg from '../assets/img/finale.jpg'
 import Fireworks from '../components/fireworks'
 import { setSkyIntensified } from '../components/starfield'
-import { music } from '../lib/musicEngine'
+import { music } from '../lib/musicengine'
 import { prefersReducedMotion } from '../hooks/useprefersreducedmotion'
-import { usePageTitle } from '../hooks/usePageMeta'
+import { usePageTitle } from '../hooks/usepagemeta'
 
 export default function Surprise() {
   usePageTitle('Surprise')

@@ -1,5 +1,5 @@
 import { useParams, Navigate, Link } from 'react-router-dom'
-import { openWhenMessages } from '../content/openWhen'
+import { openWhenMessages } from '../content/openwhen'
 import { EnvelopeRitual } from '../components/envelope'
 import { usePageTitle } from '../hooks/usepagemeta'
 
