@@ -1,0 +1,12 @@
+const fs = require('fs')
+const dir = 'C:/Users/felic/.openclaw-autoclaw/workspace/projects/website-fa6636ad37b4e1bb881a0e2f'
+const files = fs.readdirSync(dir, { recursive: true })
+console.log('delivered files:', files.map((f) => String(f)).join(', '))
+const h = fs.readFileSync(dir + '/index.html', 'utf8')
+console.log('module script present:', /type="module"/.test(h))
+console.log('mojibake present:', h.includes('Â·'))
+console.log('inline media:', (h.match(/data:(image\/jpeg|video\/mp4)/g) || []).length)
+console.log('inline fonts:', (h.match(/data:font\/woff2/g) || []).length)
+console.log('date label ok:', h.includes('09 · 29 · 2026'))
+console.log('love line ok:', h.includes('I love you. Always.'))
+console.log('size KB:', Math.round(h.length / 1024))

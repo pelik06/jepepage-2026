@@ -1,0 +1,6 @@
+const fs = require('fs')
+const raw = fs.readFileSync('C:/Users/felic/.openclaw-autoclaw/workspace/projects/projects.json', 'utf8')
+const arr = JSON.parse(raw)
+if (!Array.isArray(arr)) throw new Error('not an array')
+if (arr.filter((p) => p.id === 'website-fa6636ad37b4e1bb881a0e2f').length !== 1) throw new Error('id count wrong')
+console.log('projects.json valid — redeploy signal written')

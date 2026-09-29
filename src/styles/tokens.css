@@ -1,0 +1,85 @@
+/* ————— jepepage 2026 · design tokens —————
+   Dreamy Universe: midnight navy → deep violet → warm pink horizon.
+   Rose = everyday love accent. Gold = reserved for the birthday/surprise moment. */
+
+:root {
+  /* space */
+  --bg-0: #0b0a1f;
+  --bg-1: #0d0b21;
+  --bg-2: #14112e;
+  --nebula-1: #2b1b4d;
+  --nebula-2: #4b2e83;
+
+  /* ink */
+  --ink-hi: rgba(248, 248, 255, 0.94);
+  --ink-mid: #c8c2e8;
+  --ink-low: #9d96c9;
+  --ink-faint: rgba(200, 194, 232, 0.55);
+
+  /* lines & glass */
+  --line: rgba(255, 255, 255, 0.14);
+  --line-soft: rgba(255, 255, 255, 0.08);
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-strong: rgba(255, 255, 255, 0.1);
+
+  /* accents */
+  --rose: #f7a8b8;
+  --rose-deep: #e69ac6;
+  --rose-soft: #f4b8d8;
+  --gold: #f7d08a;
+  --gold-deep: #efc06e;
+  --lavender: #d6b8f0;
+  --sky-blue: #b8d8f8;
+  --peach: #f8d6b8;
+  --mint: #b8e6d6;
+
+  /* CTA gradient (rose) */
+  --cta-grad: linear-gradient(135deg, #f4b8d8 0%, #e69ac6 100%);
+  /* CTA gradient (gold — birthday only) */
+  --gold-grad: linear-gradient(135deg, #f7d08a 0%, #f0a8b8 100%);
+
+  /* paper letter */
+  --paper: #fbf5ea;
+  --paper-shade: #f3ead9;
+  --paper-ink: #46395c;
+  --paper-ink-soft: #6f6188;
+  --paper-line: rgba(70, 57, 92, 0.14);
+
+  /* type */
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-script: 'Parisienne', 'Segoe Script', 'Brush Script MT', cursive;
+  --font-hand: 'Caveat', 'Segoe Print', 'Comic Sans MS', cursive;
+  --font-body: 'Jost', 'Avenir Next', 'Century Gothic', 'Segoe UI', sans-serif;
+
+  /* geometry */
+  --r-lg: 22px;
+  --r-md: 16px;
+  --r-sm: 10px;
+  --r-pill: 999px;
+
+  /* motion */
+  --ease-soft: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-glide: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* per-page horizon tint (JS sets data-page) */
+  --horizon: rgba(247, 168, 184, 0.16);
+
+  --shadow-card: 0 18px 50px rgba(4, 2, 18, 0.5);
+  --shadow-lift: 0 24px 70px rgba(4, 2, 18, 0.62);
+  --glow-rose: 0 0 34px rgba(244, 184, 216, 0.22);
+  --glow-gold: 0 0 40px rgba(247, 208, 138, 0.28);
+}
+
+body[data-page='letter'],
+body[data-page='envelope'] {
+  --horizon: rgba(247, 168, 184, 0.22);
+}
+body[data-page='memories'] {
+  --horizon: rgba(214, 184, 240, 0.2);
+}
+body[data-page='surprise'] {
+  --horizon: rgba(247, 208, 138, 0.2);
+}
+body[data-page='archive'] {
+  --horizon: rgba(184, 216, 248, 0.18);
+}
